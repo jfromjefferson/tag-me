@@ -1,0 +1,59 @@
+@use "variables.scss" as *;
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: $bg-light;
+  color: $text-dark;
+}
+
+.container {
+  max-width: 450px;
+  margin: 40px auto;
+  background: white;
+  padding: 2rem;
+  border-radius: $radius;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+button {
+  margin-top: 2rem;
+  padding: 0.75rem 1.5rem;
+  background: $primary-color;
+  color: white;
+  border: none;
+  border-radius: $radius;
+  cursor: pointer;
+}
+
+.label-form input, .label-form textarea {
+  width: 100%;
+  padding: 6px 8px;
+  margin-bottom: 8px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.label-form {
+  .label-form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .random-data-btn {
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+  }
+}
+
