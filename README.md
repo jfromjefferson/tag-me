@@ -2,6 +2,11 @@
 
 **tag-me** é uma aplicação React para gerar etiquetas de envio personalizadas para testes, incluindo códigos de rastreamento e informações de remetente e destinatário.
 
+## 💻 Demonstração
+
+Acesse aqui a versão ao vivo:  
+🔗 [https://idyllic-profiterole-f864c5.netlify.app](https://idyllic-profiterole-f864c5.netlify.app)
+
 ## 🚀 Funcionalidades
 
 - Gerar etiquetas de envio com informações personalizadas.
