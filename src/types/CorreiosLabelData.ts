@@ -4,7 +4,7 @@ export interface CorreiosLabelData {
   senderDistrict: string;
   senderCity: string;
   senderState: string;
-  senterPostalCode: string;
+  senderPostalCode: string;
   receiverName: string;
   receiverAddress: string;
   receiverDistrict: string;

@@ -32,6 +32,11 @@ button {
   cursor: pointer;
 }
 
+.label-preview-area {
+  display: flex;
+  justify-content: center;
+}
+
 .label-form input, .label-form textarea {
   width: 100%;
   padding: 6px 8px;

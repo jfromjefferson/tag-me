@@ -36,7 +36,7 @@ export function CorreiosLabelForm({ data, setData }: Props) {
       senderDistrict: randomDistricts[0],
       senderCity: randomCities[0],
       senderState: randomStates[0],
-      senterPostalCode: randomPostalCodes[0],
+      senderPostalCode: randomPostalCodes[0],
       receiverName: randomNames[1],
       receiverAddress: randomAddresses[1],
       receiverDistrict: randomDistricts[1],
@@ -58,7 +58,7 @@ export function CorreiosLabelForm({ data, setData }: Props) {
       <h2>Remetente</h2>
       <input name="senderName" value={data.senderName} onChange={handleChange} placeholder="Nome do remetente" />
       <input name="senderAddress" value={data.senderAddress} onChange={handleChange} placeholder="Endereço do remetente" />
-      <input name="senterPostalCode" value={data.senterPostalCode} onChange={handleChange} placeholder="CEP do remetente" />
+      <input name="senderPostalCode" value={data.senderPostalCode} onChange={handleChange} placeholder="CEP do remetente" />
 
       <h2>Destinatário</h2>
       <input name="receiverName" value={data.receiverName} onChange={handleChange} placeholder="Nome do destinatário" />

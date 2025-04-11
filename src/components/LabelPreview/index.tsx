@@ -37,7 +37,7 @@ export function LabelPreview({ data }: Props) {
         <p>{data.senderName}</p>
         <p>{data.senderAddress}</p>
         <p>{data.senderDistrict}</p>
-        <p>{data.senterPostalCode} {data.senderCity} - {data.senderState}</p>
+        <p>{data.senderPostalCode} {data.senderCity} - {data.senderState}</p>
       </div>
 
       {data.comments && (

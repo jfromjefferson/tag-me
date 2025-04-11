@@ -11,7 +11,7 @@ export default function App() {
     senderDistrict: "Central",
     senderCity: "Raccoon City",
     senderState: "PA",
-    senterPostalCode: "123456-789",
+    senderPostalCode: "123456-789",
     receiverName: "Alice",
     receiverAddress: "Arkham Street, 456",
     receiverDistrict: "Downtown",
@@ -30,7 +30,7 @@ export default function App() {
     <div className="container">
       <h2>TagMe - Gerador de Etiquetas</h2>
       <CorreiosLabelForm data={data} setData={setData} />
-      <div ref={labelRef}>
+      <div ref={labelRef} className="label-preview-area">
         <LabelPreview data={data} />
       </div>
       <LabelGenerator targetRef={labelRef} />
