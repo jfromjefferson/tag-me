@@ -20,11 +20,11 @@ export function CorreiosLabelForm({ data, setData }: Props) {
 
   function randomizeData() {
     const randomNames = [faker.person.fullName(), faker.person.fullName()]
-    const randomAddresses = [faker.location.streetAddress(), faker.location.streetAddress()]
+    const randomAddresses = [faker.location.streetAddress(true), faker.location.streetAddress(true)]
     const randomDistricts = [faker.location.country(), faker.location.country()]
     const randomCities = [faker.location.city(), faker.location.city()]
     const randomStates = [faker.location.state(), faker.location.state()]
-    const randomPostalCodes = [faker.location.zipCode(), faker.location.zipCode()]
+    const randomPostalCodes = [faker.location.zipCode({format: "#####-###"}), faker.location.zipCode({format: "#####-###"})]
     const randomTrackingCode = generateTrackingCode()
     const randomServices = ["PAC", "SEDEX", "SEDEX 10", "SEDEX Hoje", "PAC com coleta", "SEDEX com coleta"]
     const randomComments = ["Abrir com cuidado", "Frágil", "Não dobrar", "Entregar pessoalmente", "Deixar na portaria"]
